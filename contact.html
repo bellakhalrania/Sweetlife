@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet life</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="header-container">
+
+      <!-- LEFT MENU -->
+      <nav class="nav-left">
+        <a href="index.html">Accueil</a>
+        <a href="menu.html">Nos Pâtisseries</a>
+        <a href="order.html">Commander</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <!-- LOGO CENTER -->
+      <div class="logo">
+        <h1>SWEET</h1>
+        <span>life</span>
+      </div>
+
+       <!-- RIGHT MENU -->
+       <div class="nav-right">
+        <a href="contact.html"><i class="fas fa-user"></i></a>
+        <a href="order.html"><i class="fas fa-shopping-bag"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <section class="contact-section">
+    <video class="contact-video-bg" autoplay muted loop playsinline>
+        <source src="videos/cake1.mp4" type="video/mp4">
+    </video>
+    <div class="contact-overlay"></div>
+    <div class="contact-content">
+        <h2 class="contact-heading">Contactez-nous</h2>
+        <p class="contact-subtitle">Nous sommes là pour répondre à vos questions et recevoir vos suggestions.</p>
+
+        <div class="contact-wrapper">
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Votre email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" placeholder="Sujet du message" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Votre message..." rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="contact-btn">Envoyer</button>
+                </form>
+            </div>
+
+            <div class="contact-location">
+                <h3>Notre Localisation</h3>
+                <div class="location-info">
+                    <div class="location-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Adresse</strong>
+                            <p>Tunis, Tunisie</p>
+                        </div>
+                    </div>
+                    <div class="location-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Horaires</strong>
+                            <p>Lun - Dim: 9h00 - 20h00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.5!2d10.1815!3d36.8065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzYsODA2NSwxMC4xODE1!5e0!3m2!1sfr!2stn!4v1234567890123!5m2!1sfr!2stn" 
+                        width="100%" 
+                        height="300" 
+                        style="border:0; border-radius: 15px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <footer class="site-footer">
+    <div class="footer-container">
+
+      <!-- LOGO / ABOUT -->
+      <div class="footer-box">
+        <h3>7ali Bech Twalli</h3>
+        <p>
+          Pâtisserie artisanale tunisienne, où chaque douceur est
+          préparée avec amour et savoir-faire.
+        </p>
+      </div>
+
+      <!-- LINKS -->
+      <div class="footer-box">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="menu.html">Nos Pâtisseries</a></li>
+          <li><a href="order.html">Commander</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- CONTACT -->
+      <div class="footer-box">
+        <h4>Contact</h4>
+        <p>📍 Tunis, Tunisie</p>
+        <p>📞 +216 XX XXX XXX</p>
+        <p>📧 contact@sweetlife.tn</p>
+      </div>
+
+      <!-- SOCIAL -->
+      <div class="footer-box">
+        <h4>Suivez-nous</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 – SWEET LIFE | Tous droits réservés
+    </div>
+  </footer>
+
+
+
+  <a href="index.html" class="back-to-home-btn" aria-label="Retour à l'accueil">
+    <i class="fas fa-home"></i>
+</a>
+
+</body>
+
+</html>
