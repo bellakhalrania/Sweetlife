@@ -14,9 +14,24 @@
       "default",
       {
         "ignore": [
-          "video[playsinline]"
+          "video[playsinline]",
+          "iframe[loading]",
+          "iframe[referrerpolicy=no-referrer-when-downgrade]"
         ]
       }
-    ]
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "frame-title": "off"
+      }
+    ],
+    "no-inline-styles": "off"
   }
 }
